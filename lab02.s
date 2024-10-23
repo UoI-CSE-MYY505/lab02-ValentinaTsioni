@@ -10,6 +10,9 @@ array: .word 1, 0, 1, 12, 0, 1, 4
     li a2, 1
 prog:
 #-----------------------------
+
+    la a3, array
+    
 # Write your code here!
 # Do not remove the prog label or write code above it!
 #-----------------------------
